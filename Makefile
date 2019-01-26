@@ -51,6 +51,7 @@ ${SRC}/sts_legacy_fft:
 #
 clean:
 	cd ${SRC}; $(MAKE) $@
+	rm -f ./sts
 
 clobber:
 	cd ${SRC}; $(MAKE) $@
